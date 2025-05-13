@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SUSCLO - Wear the Change</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #fefcf9; }
+    header { background: #f5e6d8; padding: 2em; text-align: center; }
+    .shop-now {
+      display: inline-block; background: #b88b5a; padding: 0.5em 1em;
+      color: white; text-decoration: none; border-radius: 5px; font-weight: bold;
+    }
+    .filters, .products { display: flex; gap: 1em; justify-content: center; margin: 2em 0; }
+    .product { border: 1px solid #ccc; padding: 1em; width: 200px; background: white; }
+    .product img { width: 100%; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SUSCLO</h1>
+    <p>Environmentally Conscious Fashion</p>
+    <a href="#shop" class="shop-now">★ SHOP NOW ★</a>
+  </header>
+
+  <section id="shop">
+    <div class="filters">
+      <select><option>Material</option></select>
+      <select><option>Brand</option></select>
+      <select><option>Eco</option></select>
+    </div>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Shirt">
+        <p><strong>PATAGONIA</strong><br>Men's Fjord Flannel Shirt</p>
+        <p>Eco Score: 🍃🍃🍃🍃</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Bag">
+        <p><strong>STELLA MCCARTNEY</strong><br>Frayme Tote Bag</p>
+        <p>Eco Score: 🍃🍃🍃🍃🍃</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
